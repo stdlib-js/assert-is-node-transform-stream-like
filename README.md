@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@esm/index.mjs';
+import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@v0.1.0-esm/index.mjs';
 ```
 
 #### isNodeTransformStreamLike( value )
@@ -80,7 +80,7 @@ var bool = isNodeTransformStreamLike( transformStream() );
 
 var stream = require( 'stream' );
 import transformStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@esm/index.mjs';
-import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@esm/index.mjs';
+import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@v0.1.0-esm/index.mjs';
 
 var bool = isNodeTransformStreamLike( new stream.Transform() );
 // returns true
