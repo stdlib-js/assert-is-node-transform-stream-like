@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@deno/mod.js';
+import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@v0.2.2-deno/mod.js';
 ```
 
 #### isNodeTransformStreamLike( value )
@@ -75,7 +75,7 @@ var bool = isNodeTransformStreamLike( transformStream() );
 ```javascript
 var stream = require( 'stream' );
 import transformStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@deno/mod.js';
-import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@deno/mod.js';
+import isNodeTransformStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-transform-stream-like@v0.2.2-deno/mod.js';
 
 var bool = isNodeTransformStreamLike( new stream.Transform() );
 // returns true
